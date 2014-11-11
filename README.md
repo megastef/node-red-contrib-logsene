@@ -43,8 +43,13 @@ If no text is specified in "msg.log" it logs "msg.payload". In any case it adds 
 ## What can I do with it? 
 
 1) For example you want to log from a browser or app via WebSocket to the Logsene service:
+
 websocket -> Logsene
+
 2) You want to track msg objects from MQTT devices
+
 mqtt -> logsene
+
 3) You want to log all tweets about you
+
 twitter -> sentiment -> logsene
