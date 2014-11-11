@@ -1,0 +1,60 @@
+<script type="text/javascript">
+    RED.nodes.registerType('logsene',{
+		category: 'storage-output',
+		color: 'lightblue',
+		defaults: {
+			name: {value:""},
+			server: {value:"", type:"logsene-saas"}
+		},
+		inputs:1,
+		outputs:0,
+		icon: "file.png",
+		label: function() {
+			return this.name||"logsene";
+		}
+    });
+</script>
+
+<script type="text/x-red" data-template-name="logsene">
+	<div class="form-row">
+         <label for="node-input-server"><i class="fa fa-file"></i> Server</label>
+         <input type="text" id="node-input-server" placeholder="Server">
+    </div>
+	<div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="logsene">
+    <p>A node that logs to Logsene by Sematext</p>
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('logsene-saas',{
+        category: 'config',
+        defaults: {
+            token: {value:"",required:true},
+            logname: {value:"", required: true}
+            // reserved for OnPremises Version
+            //host: {value:"",required:true},
+            //port: {value:80,required:true,validate:RED.validators.number()},
+
+        },
+        label: function() {
+            return this.logType + "--" +  this.token;
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="logsene-saas">
+
+	<div class="form-row">
+        <label for="node-config-input-token"><i class="icon-bookmark"></i> Token</label>
+        <input type="text" id="node-config-input-token">
+    </div>
+	<div class="form-row">
+        <label for="node-config-input-logname"><i class="icon-bookmark"></i> Log Name</label>
+        <input type="text" id="node-config-input-logname">
+    </div>
+</script>

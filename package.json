@@ -1,0 +1,49 @@
+{
+  "name": "node-red-contrib-logsene",
+  "version": "0.0.1",
+  "description": "Node-Red Node - for logging to Logsene by Sematext from Node-Red",
+  "main": "node-red-contrib-logsene.js",
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/megastef/node-red-contrib-logsene.git"
+  },
+  "keywords": [
+    "node-red-contrib",
+    "node-red",
+    "logsene",
+    "iot",
+    "logging",
+    "logs"
+  ],
+  "node-red": {
+    "nodes": {
+      "logsene": "node-red-contrib-logsene.js"
+    }
+  },
+  "dependencies": {
+    "node-spm": "*"
+  },
+  "author": {
+    "name": "Stefan Thies",
+    "email": "stefan.thies@sematext.com",
+    "url": "http://www.twitter.com/seti321"
+  },
+  "license": "Copyright 2014, Sematext Group Inc. - Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0",
+  "bugs": {
+    "url": "https://github.com/megastef/node-red-contrib-logsene/issues"
+  },
+  "homepage": "https://github.com/megastef/node-red-contrib-logsene",
+  "_npmUser": {
+    "name": "megastef",
+    "email": "s.thies@bigdata-analyst.de"
+  },
+  "maintainers": [
+    {
+      "name": "megastef",
+      "email": "s.thies@bigdata-analyst.de"
+    }
+  ]
+}
