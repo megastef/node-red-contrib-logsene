@@ -2,7 +2,7 @@
 
 **A [Node-Red](http://nodered.org/) wrapper for [Logsene](http://sematext.com/logsene)**
 
-It makes your "Things" logging to the cloud. Where else, on your device is not much space!
+It makes your "Things" logging to the cloud. Where else? On your device is not much space!
 
 
 # Introduction
