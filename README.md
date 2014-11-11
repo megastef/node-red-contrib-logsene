@@ -46,13 +46,13 @@ In any case it adds the complete msg  object as JSON object.
 
 1) For example you want to log from a browser or app via WebSocket to the Logsene service:
 
-websocket -> Logsene
+websocket -> logsene
 
 2) You want to track msg objects from MQTT devices
 
 mqtt -> logsene
 
-3) You want to log all tweets about you
+3) You want to log all tweets about you using sentiment analysis
 
 twitter -> sentiment -> logsene
 
