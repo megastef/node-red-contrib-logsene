@@ -54,6 +54,8 @@ mqtt -> logsene
 
 twitter -> sentiment -> logsene
 
-4) You want to debug the msg object in your flow at different places
+4) Debug Node-Red flows - log msg objects in your flow at different places
 
 Add parallel connection to outgoing connectors, in Logsene view by timestamp how your message changed in the flow
+
+![img](https://cloud.githubusercontent.com/assets/7289505/4992969/c0d22d42-69a8-11e4-9891-f1280a9339f5.png)
