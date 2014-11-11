@@ -53,3 +53,6 @@ mqtt -> logsene
 3) You want to log all tweets about you
 
 twitter -> sentiment -> logsene
+
+4) You want to debug the msg object in your flow at different places
+Add parallel connection to outgoing connectors, in Logsene view by timestamp how your message changed in the flow
