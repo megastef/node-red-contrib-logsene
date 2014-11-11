@@ -6,7 +6,7 @@
 # Introduction
 
 The _node-red-contrib-logsene_ node makes it  easy to log directly to  Logsene by Sematext from Node-Red.
-If no message is specified it logs the complete message as JSON object.
+If no text is specified in "msg.log" it logs "msg.payload". In any case it adds the complete msg  object as JSON object.
 
 # Features:
 
@@ -27,11 +27,17 @@ If no message is specified it logs the complete message as JSON object.
 	npm install node-red-contrib-logsene
 
 2) Restart node-red
+
+
 3) Open your browser (e.g. http://localhost:1880)
+
 4) The module 'logsene' registers to node-red you can find in the storage section on the left side panel in node-red.
+
 5) Drag the logsene module to your worksheet
-5) double click on it to configure
-5) Enter the Logsene App token and name the log  (e.g. iotLogger)
+
+6) double click on it to configure
+
+7) Enter the Logsene App token and name the log  (e.g. iotLogger)
     - current limitation: pls. don't use special characters in it like '-'
 
 ## How to use?

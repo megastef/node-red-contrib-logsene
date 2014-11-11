@@ -15,7 +15,7 @@ module.exports = function (RED) {
 
         this.on('input', function (msg) {
             //console.log (msg)
-            log.log( msg.logLevel || this.server.logname, [msg.logLevel || this.server.logname] , msg.payload, msg);
+            log.log( msg.logLevel || this.server.logname, [msg.logLevel || this.server.logname] , msg.log || msg.payload, msg);
             //for debug: console.log('logsene:' + JSON.stringify(msg));
         });
         this.on("close", function () {
