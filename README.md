@@ -11,7 +11,7 @@ If no text is specified in "msg.log" it logs "msg.payload". In any case it adds 
 # Features:
 
    * Drag and drop on node-red
-   * Settings form  for Logsene Token and name of the log for your app
+   * Settings UI - for Logsene Token and name of the log for your app
    * Logging to Sematext SaaS service Logsene or On-Premises edition
 
 
@@ -40,10 +40,11 @@ If no text is specified in "msg.log" it logs "msg.payload". In any case it adds 
 7) Enter the Logsene App token and name the log  (e.g. iotLogger)
     - current limitation: pls. don't use special characters in it like '-'
 
-## How to use?
+## What can I do with it? 
 
-
-Get a free account at [Sematext](http://www.sematext.com/logsene)
-
-  * TOKEN: As supplied by Logsene, when you create a new App the token is displayed in overview.
-
+1) For example you want to log from a browser or app via WebSocket to the Logsene service:
+websocket -> Logsene
+2) You want to track msg objects from MQTT devices
+mqtt -> logsene
+3) You want to log all tweets about you
+twitter -> sentiment -> logsene
