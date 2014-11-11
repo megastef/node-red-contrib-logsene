@@ -7,20 +7,20 @@ It makes your "Things" logging to the cloud. Where else? On your device is not m
 
 # Introduction
 
-The _node-red-contrib-logsene_ node makes it  easy to log directly to  Logsene by Sematext from Node-Red.
-If no text is specified in "msg.log" it logs "msg.payload". In any case it adds the complete msg  object as JSON object.
+The _node-red-contrib-logsene_ node makes it  easy to log directly from node-red to  Logsene by Sematext.
+If no text is specified in "msg.log" it logs "msg.payload". 
+In any case it adds the complete msg  object as JSON object. 
 
 # Features:
 
    * Drag and drop on node-red
    * Settings UI - for Logsene Token and name of the log for your app
-   * Logging to Sematext SaaS service Logsene or On-Premises edition
-
+   * Logging to Sematext SaaS service Logsene On-Premises edition 
 
 # Requirements
 
 - [Get a free Logsene account](https://apps.sematext.com/users-web/register.do)
-- Create a new app to create an access token
+- Create a new app in Logsene to obtain an access token
 
 ## Installation and usage
 
@@ -35,11 +35,11 @@ If no text is specified in "msg.log" it logs "msg.payload". In any case it adds 
 
 4) The module 'logsene' registers to node-red you can find in the storage section on the left side panel in node-red.
 
-5) Drag the logsene module to your worksheet
+5) Drag the Logsene module to your worksheet
 
 6) double click on it to configure
 
-7) Enter the Logsene App token and name the log  (e.g. iotLogger)
+7) Enter the Logsene app token and name the log  (e.g. iotLogger)
     - current limitation: pls. don't use special characters in it like '-'
 
 ## What can I do with it? 
