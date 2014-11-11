@@ -1,6 +1,7 @@
 # node-red-contrib-logsene
 
-**A Node-Red wrapper for [Logsene](http://sematext.com/logsene)**
+**A [Node-Red](http://nodered.org/) wrapper for [Logsene](http://sematext.com/logsene)**
+Makes your IoT components logging to the cloud. 
 
 
 # Introduction
