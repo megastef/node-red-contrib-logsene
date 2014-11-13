@@ -1,4 +1,5 @@
 # node-red-contrib-logsene
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/megastef/node-red-contrib-logsene?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 **A [Node-Red](http://nodered.org/) wrapper for [Logsene](http://sematext.com/logsene)**
 
